@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="school" targetNamespace="http://tempuri.org/school.xsd" xmlns:mstns="http://tempuri.org/school.xsd" xmlns="http://tempuri.org/school.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="school" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="school" msprop:Generator_UserDSName="school">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="studinfo" msprop:Generator_TableClassName="studinfoDataTable" msprop:Generator_TableVarName="tablestudinfo" msprop:Generator_TablePropName="studinfo" msprop:Generator_RowDeletingName="studinfoRowDeleting" msprop:Generator_RowChangingName="studinfoRowChanging" msprop:Generator_RowEvHandlerName="studinfoRowChangeEventHandler" msprop:Generator_RowDeletedName="studinfoRowDeleted" msprop:Generator_UserTableName="studinfo" msprop:Generator_RowChangedName="studinfoRowChanged" msprop:Generator_RowEvArgName="studinfoRowChangeEvent" msprop:Generator_RowClassName="studinfoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Subject" msprop:Generator_ColumnVarNameInTable="columnSubject" msprop:Generator_ColumnPropNameInRow="Subject" msprop:Generator_ColumnPropNameInTable="SubjectColumn" msprop:Generator_UserColumnName="Subject" type="xs:string" minOccurs="0" />
+              <xs:element name="Unit" msprop:Generator_ColumnVarNameInTable="columnUnit" msprop:Generator_ColumnPropNameInRow="Unit" msprop:Generator_ColumnPropNameInTable="UnitColumn" msprop:Generator_UserColumnName="Unit" type="xs:string" minOccurs="0" />
+              <xs:element name="Instructor" msprop:Generator_ColumnVarNameInTable="columnInstructor" msprop:Generator_ColumnPropNameInRow="Instructor" msprop:Generator_ColumnPropNameInTable="InstructorColumn" msprop:Generator_UserColumnName="Instructor" type="xs:string" minOccurs="0" />
+              <xs:element name="Grade" msprop:Generator_ColumnVarNameInTable="columnGrade" msprop:Generator_ColumnPropNameInRow="Grade" msprop:Generator_ColumnPropNameInTable="GradeColumn" msprop:Generator_UserColumnName="Grade" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
